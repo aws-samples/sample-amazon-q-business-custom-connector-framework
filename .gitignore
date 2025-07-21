@@ -1,0 +1,108 @@
+# Node.js
+node_modules
+*/node_modules
+*/*/node_modules
+*/*/*/node_modules
+*/*/*/*/node_modules
+.npm
+.eslintcache
+.yarn-integrity
+.yarn/
+.pnp.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.env
+.pytest_cache/
+.ruff_cache/
+.coverage
+.tox/
+.nox/
+.hypothesis/
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# CDK
+.cdk.staging/
+cdk.out/
+cdk-outputs.json
+cdk.context.json
+**/cdk.context.json
+**/cdk.context.json
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Distribution / packaging
+*.manifest
+*.spec
+
+# AWS SAM
+.aws-sam/
+samconfig.toml
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development
+.localstack/
+
+# Custom Connector Framework specific
+**/model/*.json
+*-service-model.json
+*-oas30.json
+CustomConnectorFramework-prod-oas30.json
+ccf-service-model.json
+package-lock.json
+**/package-lock.json**
